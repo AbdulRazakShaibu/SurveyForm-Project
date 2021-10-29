@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Tell me about your favourite Qur'an reciter in Saudia Arabia, Egypt and Sudan</h1>
+    <p id="description"   >This is where you can tell us about the Qur'an reciter you're inspired by.
+    </p>
+    <form id="survey-form"   action="">
+        <label id="name-label">Name:</label>
+         <input type="text" name="name" id="name" required placeholder="First Name"></input><br/>
+         <label id="email-label"> Email:</label>
+        <input type="email" name="name" id="email" required placeholder="Best Email"></input><br/>
+        <label id="number-label">Number:</label>
+        <input type="number" name="number" id="number" min="0" max="10"  required
+         placeholder="Level of excitemant"></input><br/>
+         <select id="dropdown" name="guitars">
+            <option value="fender">Suratul Alfatiha</option>
+            <option value="martin">Suratul Albkara</option>
+            <option value="epiphone">Suratul Al-Imran</option>
+            <option value="others">Other</option>
+        </select><br>
+        <input type="radio" name="gender" value="male">Male<br/>
+        <input type="radio" name="gender" value="female">Female<br/>
+        <input type="radio" name="gender" value="others">Others<br/>
+
+        <input type="checkbox" name="gender" value="others">Saudi Arabia<br/>
+        <input type="checkbox" name="gender" value="others">Egypt<br/>
+        <input type="checkbox" name="gender" value="others">Sudan<br/>
+
+        <textarea name="additional comment" id="" cols="30" rows="10">Enter Additional comment</textarea><br>
+        
+        <input type="Submit" id="submit">
+        
+        
+    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html> 

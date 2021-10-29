@@ -1,0 +1,21 @@
+body{
+    font-family: sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: orange;
+    font-weight: bold;
+}
+form{
+    background-color: purple;
+    padding: 30px;
+}
+label{
+    font-size: 20px;
+    display: block;
+    padding-bottom: 0px;
+}
+input{
+    display: block;
+}
